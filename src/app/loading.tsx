@@ -1,15 +1,20 @@
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
 export default function Loading() {
   return (
-    <SkeletonTheme
-      width={500}
-      height={100}
-      baseColor="#202020"
-      highlightColor="#444"
-    >
-      <Skeleton count={3} />
-    </SkeletonTheme>
+    <div className="p-6 max-w-sm mt-4 bg-secondary-background rounded-xl shadow-xl flex items-center space-x-4">
+      <Skeleton
+        baseColor="#202020"
+        highlightColor="#444"
+        className="w-14 h-5"
+      />
+
+      <Skeleton
+        baseColor="#202020"
+        highlightColor="#444"
+        className="w-28 h-5"
+      />
+    </div>
   )
 }

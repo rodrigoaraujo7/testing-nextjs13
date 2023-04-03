@@ -10,8 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <h1>Element in all pages</h1>
+      <body className="bg-main-background p-6 max-w-sm mx-auto">
+        <h1 className="text-2xl text-primary-text font-bold flex gap-2">
+          Element in all pages
+        </h1>
         {children}
       </body>
     </html>
