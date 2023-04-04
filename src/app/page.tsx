@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="p-6 max-w-sm mt-4 bg-secondary-background rounded-xl shadow-xl flex items-center space-x-4">
+    <div className="p-6 max-w-sm mt-4 bg-secondary-background rounded-xl shadow-xl flex flex-col items-center space-x-4 sm:flex-row">
       <h1 className="text-xl font-medium text-primary-text">Home</h1>
       <Link
         href="/dashboard"
