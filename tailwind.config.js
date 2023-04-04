@@ -12,11 +12,14 @@ module.exports = {
   theme: {
     colors: {
       'dark-background': '#111010',
-      'light-background': 'rgb(231 229 228)',
-      'secondary-background': '#1E1E1E',
+      'light-background': '#E7E5E4',
+      'secondary-dark-background': '#1E1E1E',
+      'secondary-light-background': '#c7c7c7',
       'primary-blue': '#6190E8',
       'secondary-blue': '#A7BFE8',
-      'primary-text': 'rgb(231 229 228)',
+      'primary-green': '#65c983',
+      'secondary-green': '#79a887',
+      'primary-text': '#E7E5E4',
     },
     extend: {},
   },

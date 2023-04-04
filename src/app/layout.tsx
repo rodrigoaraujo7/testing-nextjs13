@@ -21,7 +21,7 @@ export default function RootLayout(
     <html lang="en">
       <body className="bg-main-background p-6 max-w-sm mx-auto">
         <ThemeProvider attribute="class">
-          <h1 className="text-2xl text-primary-text font-bold flex gap-2">
+          <h1 className="text-2xl text-dark-background dark:text-light-background font-bold flex gap-2">
             Element in all pages
             <Button />
           </h1>
